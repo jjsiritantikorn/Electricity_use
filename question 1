@@ -12,6 +12,26 @@ public class electric1
 		System.out.println("Purchase price of computer:");
 		s = in.nextLine();
 		System.out.println(s);
+		
+		System.out.println("Screen size in inches: ");
+  		int x = in.nextInt();
+  
+  
+  		if (x < 11) {
+		x = 1; //small
+
+		}
+
+		if (11<=x && x<15) {
+		x = 2; //medium
+
+		}
+
+		if (x >= 15) {
+		x = 3; //large
+
+		}
+
 
 		
 	}
